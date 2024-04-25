@@ -29,10 +29,11 @@
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #643da7; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-  --rs-phone-padding: 10px;
+  --rs-phone-color: #37946a;; /*var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-phone-padding-right: 0px;
+  --rs-phone-padding-left: 0px;
 
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   /*
    * SoftX variables
    */   
@@ -61,4 +62,11 @@ body .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12
   border-radius: 16px;
   max-width: 100%;
   /* background-color: rgb(44, 44, 44); */
+}
+#app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    top: 70%;
+    transform: translateY(-35%);
 }
