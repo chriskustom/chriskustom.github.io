@@ -186,6 +186,7 @@
     right: 0;
     background: var(--rs-phone-color, var(--rs-online-color));
     z-index: 1;
+    padding-right: var(--rs-phone-padding, 0px);
   }
   #app-mount .wrapper__3ed10 foreignObject[mask*=mobile] + rect {
     stroke: var(--rs-phone-color, var(--rs-online-color));
