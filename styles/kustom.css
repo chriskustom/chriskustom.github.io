@@ -1,0 +1,71 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+/* Theme imports */
+@import url('https://chriskustom.github.io/styles/Main.css');
+@import url("https://chriskustom.github.io/styles/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
+@import url("https://chriskustom.github.io/styles/VerticalUserArea.css"); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
+@import url("https://chriskustom.github.io/styles/RadialStatus.css");
+
+/* @import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); Windows titlebar. | Remove this line to disable. */
+:root {
+  /*
+   * RadialStatus variables
+   */
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 4px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 1.5px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 2px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 2px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: #37946a;; /*var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  /*
+   * SoftX variables
+   */   
+  --font-primary: "Nunito";
+  --font-display: "Nunito";
+  --background-image: url("https://i.imgur.com/s8T5Jw3.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
+  --accent: 187, 153, 255; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+  --channels-width: 300px; /* Width of the channels list. | Default: 300px */
+  --guilds-width: 105px; /* Width of the server list. | Default: 105px */
+  --members-width: 280px; /* Width of the members list. | Default: 280px */
+  --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+  --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
+  --glow-intensity: 0.8; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+  --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
+  --font: "Inter"; /* Custom font | Default: 'Inter' */
+  --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
+  --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+  --chat-bubble-bg: rgba(255, 255, 255, 0.03);
+  --chat-bubble-bg-self: rgb(var(--accent), 0.15);
+  --chat-bubble-padding: 10px 14px;
+  --chat-bubble-display: inline-block;
+}
+body .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312),
+#app-mount .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312) {
+  border-radius: 16px;
+  max-width: 100%;
+  /* background-color: rgb(44, 44, 44); */
+}
+#app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
+    position: absolute;
+    background-color: rgb(102, 255, 0);
+    width: 25px;
+    height: 15px;
+    top: 70%;
+    transform: translateY(-35%);
+}
