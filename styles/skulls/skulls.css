@@ -61,3 +61,44 @@ body .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12
   max-width: 100%;
   /* background-color: rgb(44, 44, 44); */
 }
+body .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312),
+#app-mount .cozy_f5c119 .messageContent_abea64:not(:empty):not(.repliedTextContent_b12fe1):not(.threadMessageAccessoryContent__42312) {
+  border-radius: 16px;
+  max-width: 100%;
+  /* background-color: rgb(44, 44, 44); */
+}
+#app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
+    position: absolute;
+    background-color: rgb(102, 255, 0);
+    width: 25px;
+    height: 15px;
+    top: 70%;
+    transform: translateY(-35%);
+}
+#app-mount .container_b92032 .list__5ced9 .content__690c5 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#app-mount .card__691f2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+#app-mount .mainCard__0ec2c {
+  background-color: hsl( 223 calc(1 * 6.7%) 20.6% / 1);
+  border: 1px solid hsl(0 calc(1 * 0%) 0% / 0);
+  border-radius: 12px;
+}
+#app-mount .container_de2a56{
+  align-items: start;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  border: 1px solid transparent;
+}
